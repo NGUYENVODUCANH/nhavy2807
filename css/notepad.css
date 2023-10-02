@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.cdnfonts.com/css/times-new-roman');
+:root{
+    --primary-color:#f2726a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 700px;
+    height: 700px;
+    background:linear-gradient(#e66465, #9198e5);
+    font-family: 'Times New Roman', sans-serif;
+    color:white;
+}
+notebt{
+    text-decoration: none;
+}

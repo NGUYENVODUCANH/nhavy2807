@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
 @import url('https://fonts.cdnfonts.com/css/times-new-roman');
+
 :root{
     --primary-color:#f2726a;
 }
@@ -15,6 +16,32 @@ body{
     font-family: 'Times New Roman', sans-serif;
     color:white;
 }
-notebt{
-    text-decoration: none;
+
+.notebt table{
+    width: 500px;
+    height: 100px;
 }
+/*--Tablet--*/
+@media screen and (min-width:600px){
+    .notebt:before {
+        background: #e7e7e7;
+        color: #333333;
+        width: 100px;
+        height: 100px;
+     }
+}
+
+
+/*--Telephone--*/
+@media all and (max-width: 480px) {
+    .notebt table:before, .notebt table::after {
+
+        max-width: 100%;
+        content: 60%;
+     }
+    
+     
+}
+
+
+/*--Tablet--*/
